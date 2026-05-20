@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://max3925vats.github.io/sitemap.xml
