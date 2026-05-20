@@ -56,12 +56,15 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    <!-- Latest work: featured talk first, then featured paper -->
+    {% if page.selected_papers or page.selected_talk %}
+      <h2>latest work</h2>
+      {% if page.selected_talk %}
+        {% include latest_talk.liquid %}
+      {% endif %}
+      {% if page.selected_papers %}
+        {% include selected_papers.liquid %}
+      {% endif %}
     {% endif %}
 
     <!-- Social -->

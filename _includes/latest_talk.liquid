@@ -1,0 +1,24 @@
+{% assign featured = site.data.talks | where: "selected", true | first %}
+{% if featured %}
+  <div class="publications">
+    <ol class="bibliography">
+      <li>
+        <div class="row">
+          {% if site.enable_publication_thumbnails %}
+            <div class="col col-sm-2 abbr"></div>
+          {% endif %}
+          <div class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+            <div class="title">{{ featured.title }}</div>
+            <div class="author"><em>{{ featured.venue }}</em></div>
+            <div>
+              {% if featured.location %}{{ featured.location }} · {% endif %}{{ featured.date | date: "%B %Y" }}{% if featured.slides %} · <a href="{{ featured.slides }}">slides</a>{% endif %}{% if featured.poster %} · <a href="{{ featured.poster }}">poster</a>{% endif %}{% if featured.url %} · <a href="{{ featured.url }}">event</a>{% endif %}
+            </div>
+            {% if featured.abstract %}
+              <div class="abstract">{{ featured.abstract }}</div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+{% endif %}

@@ -1,0 +1,37 @@
+# Conference talks, invited presentations, and posters.
+# Rendered at /talks/ as a chronological timeline grouped by year.
+# The entry with `selected: true` is featured on the home page.
+#
+# Fields:
+#   date     (required) YYYY-MM-DD — used for sort order and "Month Year" display
+#   title    (required) Talk title
+#   venue    (required) Conference / workshop name
+#   location (optional) City, region
+#   type     (optional) Invited | Keynote | Contributed | Poster
+#   slides   (optional) URL to slides (Speaker Deck, SlideShare, Google Drive, etc.)
+#   poster   (optional) URL to poster PDF (use instead of slides for poster sessions)
+#   url      (optional) Conference / session page URL
+#   abstract (optional) One- or two-sentence abstract; appears below the title
+#   selected (optional) true to feature on the home page (only one entry should have this)
+#
+- date: 2026-03-23
+  title: "Accelerated Ultrafiltration/Diafiltration Process Development to Expedite Early-Stage High-Concentration Biologics"
+  venue: "ACS BIOT 2026"
+  location: "Atlanta, GA, USA"
+  selected: true
+
+- date: 2024-03-23
+  title: "On Rapid Early Phase Polishing Development: Leveraging Multimodal Anion Exchange Chromatography to Deliver Robustness over Varying Feed Purity and Impurity Composition"
+  venue: "ACS BIOT 2024"
+  location: "New Orleans, LA, USA"
+
+- date: 2021-03-23
+  title: "Impact of Multimodal Ligand Density on Free Energy of Adsorption of Proteins to Ligand-immobilized SAM Surfaces: A Molecular Dynamics Study"
+  venue: "ACS BIOT 2021"
+  location: "(Virtual) Atlanta, GA, USA"
+
+- date: 2019-03-23
+  title: "Impact of Mobile-Phase Conditions on Multimodal Ligand Association on SAM Surfaces"
+  venue: "ACS BIOT 2019"
+  location: "Orlando, FL, USA"
+  type: Poster
