@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Tools I build at the edges of literature, process knowledge, and research workflows.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{
         id: 'social-scholar',
         title: 'Google Scholar',
