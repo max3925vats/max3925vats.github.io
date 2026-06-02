@@ -5,7 +5,6 @@ title: publications
 description: Peer-reviewed publications, in reverse chronological order. Generated from BibTeX via jekyll-scholar.
 nav: true
 nav_order: 2
-
 ---
 
 <!-- _pages/publications.md -->
