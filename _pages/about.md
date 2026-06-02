@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Scientist, Biologics Process R&D · <a href='https://www.merck.com/'>Merck & Co.</a>
+subtitle: Associate Principal Scientist, Biologics Process R&D · <a href='https://www.merck.com/'>Merck & Co.</a>
 
 profile:
   align: right
