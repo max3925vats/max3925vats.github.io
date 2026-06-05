@@ -17,10 +17,8 @@ nav_order: 3
     {% for talk in year_group.items %}
       <li>
         <div class="row">
-          {% if site.enable_publication_thumbnails %}
-            <div class="col col-sm-2 abbr"></div>
-          {% endif %}
-          <div class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+          <div class="col col-sm-2 abbr"></div>
+          <div class="col-sm-8">
             <div class="title">{{ talk.title }}</div>
             <div class="author"><em>{{ talk.venue }}</em></div>
             <div class="periodical">
