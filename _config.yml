@@ -11,9 +11,8 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic site of Mayank Vats — Associate Principal Scientist in Biologics Process R&D at Merck. Downstream process development, molecular modeling, and ML for biopharmaceutical CMC.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: biologics, process development, chromatography, molecular dynamics, machine learning, QSAR, Merck, CMC # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚗️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -65,7 +64,7 @@ al_folio:
       enabled: true
   compat:
     bootstrap:
-      enabled: true
+      enabled: false
       support_window: v1.0-v1.2
       deprecates_in: v1.3
       removed_in: v2.0
@@ -341,8 +340,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Vats]
+  first_name: [Mayank, M.]
 
   style: apa
   locale: en
