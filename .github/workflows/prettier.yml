@@ -20,9 +20,8 @@ jobs:
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
-        # Install the exact versions pinned in package.json / package-lock.json so CI
-        # matches local. Previously this force-installed the latest prettier, which
-        # drifted from the pinned local version and failed on formatting-only changes.
+        # Install pinned versions from package.json / package-lock.json so CI matches
+        # local; previously this force-installed the latest prettier and drifted.
         run: npm ci
       - name: Prettier Check 🔎
         id: prettier
