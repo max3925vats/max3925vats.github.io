@@ -222,6 +222,11 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # Pages kept in the repo but not yet rendered (still hold al-folio demo data;
+  # exclude until personalized): CV, repositories, and blog.
+  - _pages/cv.md
+  - _pages/repositories.md
+  - _pages/blog.md
   - purgecss.config.js
   - README.md
   - readme_preview/
