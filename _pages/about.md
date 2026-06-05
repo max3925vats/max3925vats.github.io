@@ -2,29 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Principal Scientist, Biologics Process R&D · <a href='https://www.merck.com/'>Merck & Co.</a>
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: Headshot.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Biologics CMC · Downstream Process Development</p>
-    <p>Molecular modeling · ML for process development</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-selected_papers: true # includes the one paper marked as "selected={true}" in MyPapers.bib
-selected_talk: true # includes the one talk marked as "selected: true" in _data/talks.yml
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-As part of the Biologics CMC organization, I sit at the interface of Drug Discovery and Clinical Trials. I specialize in downstream process development to accelerate "Speed-to-Clinic", with work spanning the entire development lifecycle, from bench-scale unit operation optimization and tech transfer to advanced digital workflows. The digital side includes leveraging molecular modeling for _in silico_ biophysical investigations, mechanistic modeling of chromatography, and developing machine-learning approaches for rapid process development across traditional monoclonal antibodies and newer modalities like fusion proteins and antibody-drug conjugates (ADCs).
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-My background is rooted in bridging molecular mechanism and physical process. During my PhD in Chemical and Biological Engineering at Rensselaer Polytechnic Institute, I used molecular dynamics simulations to elucidate how multimodal ligand surfaces govern protein retention in chromatography. Today, I work deliberately at the boundary of data science and the bench. I adapt machine-learning methods such as QSAR for retention prediction and neural-network featurization of protein structures to solve core challenges owned by the process development community.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Take a look at my [projects](/projects/) to see what else I'm interested in.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

@@ -43,22 +43,6 @@ jobs:
           done
           rm gh-md-toc
 
-      # gh-md-toc writes TOC link text with unescaped underscores (e.g. _config.yml),
-      # but the prettier workflow requires them escaped (\_config.yml). Without this,
-      # the two workflows revert each other forever. Running prettier --write here makes
-      # the auto-committed file prettier-compliant, so they agree.
-      - name: Setup Node.js ⚙️
-        if: steps.changed-files.outputs.any_changed == 'true'
-        uses: actions/setup-node@v4
-
-      - name: Format updated files with Prettier 🎨
-        if: steps.changed-files.outputs.any_changed == 'true'
-        env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: |
-          npm ci
-          npx prettier --write ${ALL_CHANGED_FILES}
-
       - name: Commit changes
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5.0.1

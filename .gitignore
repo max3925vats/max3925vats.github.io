@@ -1,8 +1,5 @@
 _site
 .bundle
-.claude/
-# Private brainstorming/spec docs (not part of the published site or repo)
-docs/superpowers/
 .DS_store
 .idea
 .jekyll-cache
@@ -13,6 +10,13 @@ docs/superpowers/
 .venv
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
-Gemfile.lock
+al-folio-upgrade-report.md
 node_modules/
+output/playwright/
+test-results/
 vendor
+
+# Claude Code session files
+.claude
+# Private brainstorming/spec docs
+docs/superpowers/
