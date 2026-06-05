@@ -1,6 +1,8 @@
 _site
 .bundle
 .claude/
+# Private brainstorming/spec docs (not part of the published site or repo)
+docs/superpowers/
 .DS_store
 .idea
 .jekyll-cache
